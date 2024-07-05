@@ -232,6 +232,29 @@ body {
     }
 }
 
+.important {
+    padding-bottom: 150px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        max-width: 580px;
+        margin: 0 auto 50px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__item-img {
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 .footer {
