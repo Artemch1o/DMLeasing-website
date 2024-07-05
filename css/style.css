@@ -48,7 +48,7 @@ body {
 .header-main {
   background-color: transparent;
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   left: 0;
   right: 0;
 }
@@ -69,6 +69,9 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
+}
+.menu__list-link--active {
+  color: #0066FF;
 }
 
 .main {
