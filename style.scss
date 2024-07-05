@@ -168,8 +168,6 @@ body {
         margin: 0 auto;
     }
 
-    &__text {}
-
     &__list {
         padding: 50px 0 70px;
         counter-reset: myCounter;
@@ -213,6 +211,27 @@ body {
     font-weight: 700;
     padding-top: 50px;
 }
+
+.video {
+    padding-bottom: 150px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    &__content {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 
 
 .footer {
